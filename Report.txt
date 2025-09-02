@@ -1,0 +1,7 @@
+Word Count Report
+~~~~~~~~~~~~~~~~~~
+
+File1.txt: 371 words
+File2.txt: 159 words
+
+Total words in all files: 530
