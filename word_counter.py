@@ -40,7 +40,7 @@ with open(report_file, "w", encoding="utf-8") as report:
 print(f"Report saved as {report_file}.")
 
 try:
-    if os.name == 'nt':  # Windows
+    if os.name == 'nt':
         os.startfile(report_file)
 except Exception as e:
     print("Couldn't open the report automatically. Open it manually.")
